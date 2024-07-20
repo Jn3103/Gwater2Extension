@@ -46,9 +46,11 @@
       border-color: transparent;
       transform-origin: 50% 50% 0px;
       width: 2003px;
+      height: 94px;
       left: 0px;
       top: 0px;
-      height: 94px;
+      --gwd-hidden-css-filter: none;
+      filter: none;
     }
     .gwd-label-19ds {
       position: absolute;
@@ -73,9 +75,11 @@
       border-color: rgb(0, 0, 0);
       background-color: rgb(54, 54, 54);
       transform-origin: 50% 50% 0px;
+      height: 1109px;
+      --gwd-hidden-css-filter: none;
+      filter: drop-shadow(rgb(0, 0, 0) -5.5px -5.5px 5px);
       left: 0px;
       top: 85px;
-      height: 1109px;
     }
     .gwd-p-1ltq {
       position: absolute;
@@ -127,6 +131,8 @@
       height: 71px;
       transform-origin: 47.2546px 50px 0px;
       transform: translate3d(9px, 4px, 0px) rotateZ(-10.7559deg);
+      --gwd-hidden-css-filter: none;
+      filter: drop-shadow(rgb(0, 0, 0) 5px 5px 5px);
     }
     .gwd-link-1a17 {
       left: 0px;
@@ -148,6 +154,39 @@
       font-size: 60px;
       color: rgb(248, 246, 246);
     }
+    .gwd-video-xfm5 {
+      position: absolute;
+      width: 848px;
+      height: 478px;
+      transform-origin: 50% 50% 0px;
+      left: 785px;
+      top: 401px;
+      --gwd-hidden-css-filter: none;
+      filter: drop-shadow(rgb(0, 0, 0) 20px 20px 7.1px);
+    }
+    .gwd-h1-178h {
+      position: absolute;
+      font-family: Arial;
+      text-align: center;
+      transform-origin: 53.87px 0px 0px;
+      color: rgb(248, 246, 246);
+      height: 42px;
+      --gwd-hidden-css-filter: none;
+      filter: drop-shadow(rgb(0, 0, 0) 5px 5px 5px);
+      left: 785px;
+      font-size: 30px;
+      top: 359px;
+      width: 271px;
+    }
+    .gwd-button-t7pe {
+      --gwd-hidden-css-filter: none;
+      filter: drop-shadow(rgb(0, 0, 0) 5px 5px 5px);
+      font-size: 34px;
+    }
+    .gwd-form-bnpr {
+      left: 0px;
+      top: 0px;
+    }
   </style>
 </head>
 
@@ -156,18 +195,16 @@
   <p id="label_1" class="gwd-label-19ds">Extension</p>
   <svg data-gwd-shape="rectangle" class="gwd-rect-1j8j"></svg>
   <h1 id="label_2" class="gwd-p-1ltq">Extension</h1>
+  <p id="label_5" class="gwd-h1-178h">or watch the trailer</p>
   <p id="label_3" class="gwd-p-1fja">Extension is a mod for GWater2 with features like:</p>
   <p id="label_4" class="gwd-p-1yuo">- Drowning<br>- More Parameters related to:<br>&nbsp; &nbsp;- Drowning<br>&nbsp; &nbsp;- Visuals<br>&nbsp; &nbsp;- Splash Sound<br>&nbsp; &nbsp;- Deadly Liquid<br>- Custom Preset Support with "--" comment support<br>- Extension Parameter Preset Support<br>- Stats in the left upper corner (inpired by gwater)</p>
-  <img src="assets/New Project.png" id="New_Project" class="gwd-img-d89i">
-  <!-- Add icon library -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" class="gwd-link-1a17">
-  <!-- Auto width -->
-  <!-- Full width -->
+  <img src="assets\New Project.png" id="New_Project" class="gwd-img-d89i">
   <button id="button_1" class="gwd-button-1kag">Download Patcher</button>
-  <form method="get" action="ExtensionPatcherv1.46.zip">
-    <button id="button_1" class="gwd-button-1kag">Download Patcher</button>
+  <form method="get" action="ExtensionPatcherv1.46.zip" class="gwd-form-bnpr">
+    <button id="button_1" class="gwd-button-1kag gwd-button-t7pe">Download Patcher</button>
   </form>
   <span class="gwd-span-1bh3"><br></span>
+  <video src="assets/extension trailer.mp4" id="extension_trailer" class="gwd-video-xfm5" controls="controls"></video>
 </body>
 
 </html>
